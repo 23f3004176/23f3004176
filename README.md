@@ -140,9 +140,8 @@
 
 ### 💬 **Let's Build the Future Together**
 ```
-📧 Business Inquiries: partnerships@23f3004176.dev
-🚀 Collaboration: collab@23f3004176.dev  
-💡 Ideas Exchange: ideas@23f3004176.dev
+🚀 Collaboration: 23f3004176@ds.study.iitm.ac.in  
+💡 Ideas Exchange: adityajha1352@gmail.com
 ```
 
 </div>
@@ -164,7 +163,7 @@
 ```javascript
 class Developer {
     constructor() {
-        this.name = "23f3004176";
+        this.name = "Aditya Kumar";
         this.passion = "Creating Digital Magic";
         this.mission = "Transform Ideas into Reality";
         this.superpowers = [
