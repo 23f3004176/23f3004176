@@ -1,0 +1,30 @@
+name: Update README Stats
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-readme:
+    name: Refresh GitHub Profile Stats Cache
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Purge streak-stats cache
+        run: |
+          curl -s "https://streak-stats.demolab.com?user=23f3004176&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" -o /dev/null
+
+      - name: Purge github-readme-stats cache
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=23f3004176&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117" -o /dev/null
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=23f3004176&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117" -o /dev/null
+
+      - name: Touch README to trigger re-render
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit --allow-empty -m "chore: refresh profile stats [skip ci]"
+          git push
