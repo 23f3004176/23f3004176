@@ -81,7 +81,7 @@
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=23f3004176&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="23f3004176's streak"/>
+<img src="https://streak-stats.demolab.com?user=23f3004176&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="23f3004176's streak"/>
 </div>
 
 ---
