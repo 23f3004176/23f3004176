@@ -36,7 +36,7 @@ I don't think of these as my "stack" so much as tools I'm comfortable with. I'll
 
 ### GitHub stats
 
-![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=23f3004176&show_icons=true&theme=default&hide_border=true)
+[![github stats](https://github-readme-streak-stats.herokuapp.com?user=23f3004176&theme=default&hide_border=true)](https://github.com/23f3004176)
 
 ---
 
