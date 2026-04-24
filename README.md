@@ -2,7 +2,7 @@
 
 I'm a full-stack developer and DS student at IIT Madras, currently in my third year. I spend most of my time building web apps, tinkering with AI/ML models, and occasionally convincing myself that *this* side project will be the one I actually finish.
 
-I like working across the stack — React on the frontend, Node or Python on the back, and anything cloud-related in between. Lately I've been going deeper into generative AI and deployment pipelines, which has been equal parts frustrating and rewarding.
+I like working across the stack — Vue on the frontend, Python on the back, and anything cloud-related in between. Lately I've been going deeper into generative AI and deployment pipelines, which has been equal parts frustrating and rewarding.
 
 ---
 
